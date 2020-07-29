@@ -59,25 +59,9 @@ section h4{
 section p{
     font-size: 1rem;    
 }
-#home{
+#home, #about, #projects, #contact {
     background-image: url(http://lorempixel.com/1600/800/abstract);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#about{
-    background-image: url(http://lorempixel.com/1600/800/abstract);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#projects{
-    background-image: url(http://lorempixel.com/1600/800/abstract);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-#contact{
-    background-image: url(http://lorempixel.com/1600/800/abstract);
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 #post-wrapper{
     display: grid;
@@ -134,3 +118,10 @@ textarea{
     font-size: 1rem;
 }
   
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
